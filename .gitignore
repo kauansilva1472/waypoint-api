@@ -1,0 +1,10 @@
+.maven/
+.idea/
+target/
+work/verificacao/
+*.class
+*.log
+*.iml
+.env
+.env.*
+!.env.example
