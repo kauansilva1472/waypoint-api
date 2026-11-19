@@ -18,7 +18,9 @@ public class CorsConfig {
 
         //Permite acesso do front-end React
         confi.setAllowedOrigins(
-                Arrays.asList("http://localhost:colocar o portal do  front"));
+                Arrays.asList(
+                        "http://localhost:5173" // npm run dev do front-end
+                ));
 
         //Metodos permitidos
         confi.setAllowedMethods(
