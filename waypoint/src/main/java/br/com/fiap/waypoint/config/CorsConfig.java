@@ -19,7 +19,8 @@ public class CorsConfig {
         //Permite acesso do front-end React
         confi.setAllowedOrigins(
                 Arrays.asList(
-                        "http://localhost:5173" // npm run dev do front-end
+                        "http://localhost:5173", // npm run dev do front-end
+                        "https://waypoint-gs.vercel.app" // site publicado na Vercel
                 ));
 
         //Metodos permitidos
